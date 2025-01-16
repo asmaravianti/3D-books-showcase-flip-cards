@@ -1,5 +1,5 @@
-$accent-color: #EA686D; /* Light Red */
-$background-gradient: linear-gradient(to right, #1C2C2F, #376855); /* Dark Green Gradient */
+$accent-color: #EA686D; 
+$background-gradient: linear-gradient(to right, #1C2C2F, #376855); 
 $font-color: #1C2C2F; 
 $card-shadow: rgba(0, 0, 0, 0.2);
 
@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Changed from height to min-height */
+  min-height: 100vh; 
   background: $background-gradient; 
   color: $font-color;
   font-family: 'Montserrat', sans-serif;
@@ -23,8 +23,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-items: center; /* Added to center content vertically */
-  min-height: 100vh; /* Added to ensure full viewport height */
+  align-items: center;
+  min-height: 100vh; 
 }
 
 .card {
@@ -75,7 +75,7 @@ body {
   .inner {
     height: 100%;
     display: grid;
-    padding: 2.5em 1.5em; /* Increased padding on top and bottom */
+    padding: 2.5em 1.5em; /* increased padding on top and bottom */
     transform: translateZ(80px) scale(0.94);
     transition: transform 0.3s ease-in-out;
   }
@@ -140,7 +140,7 @@ body {
     grid-column-gap: 0.8em;
     justify-items: center;
     transition: transform 0.3s ease-in-out;
-    overflow: hidden; /* Added to prevent content overflow */
+    overflow: hidden; 
   }
 
   .info {
@@ -158,7 +158,7 @@ body {
       background-color: #ccc;
     }
     span {
-      font-size: 1.5em; /* Reduced font size */
+      font-size: 1.5em; 
       font-weight: 700;
     }
     i {
@@ -168,14 +168,14 @@ body {
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
       }
-      font-size: 1em; /* Reduced font size */
+      font-size: 1em; 
     }
     .icon {
       margin-left: 0.3em;
       span {
         display: block;
         margin-top: -0.25em;
-        font-size: 0.7em; /* Reduced font size */
+        font-size: 0.7em; 
         font-weight: 600;
         white-space: nowrap;
       }
@@ -185,7 +185,7 @@ body {
   .description {
     grid-row: 5;
     grid-column: 1/-1;
-    font-size: 0.8em; /* Reduced font size */
+    font-size: 0.8em; 
     border-radius: 5px;
     font-weight: 600;
     line-height: 1.4em;
@@ -199,7 +199,7 @@ body {
     font-weight: 600;
     color: $accent-color;
     grid-row: 1;
-    font-size: 0.8em; /* Reduced font size */
+    font-size: 0.8em; 
   }
 
   .location {
